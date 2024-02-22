@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.fondo {
+    background: linear-gradient(to bottom, rgba(12, 12, 235, 0.631), rgba(106, 126, 165, 0.564)); 
+}
+
+
+header .fondo h1{   
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: rgba(5, 13, 37, 0.853);
+}
+header .bgimg .img {
+    display: flex;
+    justify-content: center;
+}
+header .bgimg .img img {
+    height: 5.625rem;
+}
+
+.header {
+    position: sticky; /* Hace que el encabezado sea "pegajoso" */
+    top: 0; /* Lo fija en la parte superior de su contenedor de desplazamiento */
+    width: 100%; /* Establece el ancho del encabezado al 100% del ancho de su contenedor */
+    background-color: #333; /* Puedes cambiar el color de fondo según tus preferencias */
+    z-index: 1000; /* Ajusta el índice Z para asegurarte de que esté por encima de otros elementos */
+}
+
+
+
+main .bgi {
+    background-image: url(https://www.sportadvisorweb.com/wp-content/uploads/2019/06/uruguay_running2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    min-height: 100vh;
+    animation: fadeIn 3s ease;
+    max-width: 100%;
+    height: auto;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;
+    filter: blur(1.25rem);
+}
+
+    10% {
+    opacity: 1;
+    filter: brightness(2px) blur(.625rem);
+    }
+}
+main h2 {
+    text-align: center;
+    font-size: 3.125rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: .625rem;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.botones .column  {
+    width:200px;
+    height:60px;
+    background: linear-gradient(to left top, rgba(41, 131, 183, 0.284) 50%, #dadce57c 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 5px 1px 2px rgba(0, 0, 0, 0.425);
+    border-radius: .625rem;    
+}
+@keyframes entradaIzq {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 10px;
+}
+
+.boton1, .boton2  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 1.875rem;
+}
+
+.boton1 .column {
+    margin-top: 1.875rem;
+}
+.boton2 .column {
+    margin-top: 1.875rem;
+}
+
+.botonnuevo .columna {
+    width:250px;
+    height:60px;
+    background: linear-gradient(to left top, rgba(41, 131, 183, 0.284) 50%, #dadce57c 50%);
+    border-style: none;
+    color:#fff;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 5px 1px 2px rgba(0, 0, 0, 0.425);
+    border-radius: .625rem;    
+}
+@keyframes entradaIzq {
+    from {
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+.botonnuevo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1.25rem;
+    
+}
+
+
+.informacion {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
+    background-color: rgba(0, 0, 0, 0.474);
+    width: 31.25rem;
+    height: 12.5rem;
+    box-sizing: border-box;
+    overflow: auto;
+    border-radius: 1.25rem;
+    margin-top: 6.25rem;
+}
+
+.informacion h2{
+    font-size: 1.5625rem;
+    padding-bottom: .625rem;
+    
+}
+
+.informacion p {
+    font-size: 1.25rem;
+    padding-bottom: .3125rem;
+    color: #fff;
+}
+
+.informacion .infoHotel {
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.informacion .infoDirectores {
+    margin-left: .9375rem;
+}
+
+/*llegadas*/
+.bgi .llegadash2  {
+    background: linear-gradient(to left top, rgba(69, 41, 183, 0.284) 50%, #223caf3e 50%);
+}
+
+.h2ll {
+    background: linear-gradient(to left top, #d3d4db3e 50%, #58585a3e 50%); 
+}
+.h2ll h2 {
+    font-size: 1.875rem;
+}
+
+.h2ll2 h2 {
+    background: linear-gradient(to left top, #d3d4db3e 50%, #58585a3e 50%);
+    font-size: 1.25rem;
+}
+
+.subt h3 {
+    color: white;
+    padding-top: .625rem;
+    padding-left: 10px;
+    text-decoration: overline;
+}
+
+.sectionprincipala {
+    background-color: rgba(0, 0, 0, 0.515);
+    width: 100%;
+}
+
+.sectionprincipala .pll1 {
+    color: white;
+    padding-top: .9375rem;
+    padding-left: .9375rem;
+}
+
+.sectionprincipala .subsub {
+    text-decoration:double;
+    padding-bottom: .9375rem;
+    padding-top: 1.25rem;
+    color: rgb(216, 216, 237);
+    padding-left: .9375rem;
+}
+
+
+
+/*calendario*/
+.imgcalendario {
+    border-style: groove;
+    overflow: hidden;
+}
+
+.imgcalendario img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*schedule*/
+.imgschedule {
+    border-style: groove;
+    overflow: hidden;
+}
+
+.imgschedule img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*emergencia*/
+
+.sectionprincipala .emergenciasub {
+    padding-top: 1.25rem;
+    padding-bottom: .3125rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5625rem;
+}
+
+
+.sectionprincipala .pe1 {
+    padding-bottom: .625rem;
+    color: white;
+    padding-top: .9375rem;
+    padding-left: .9375rem;
+}
+.sectionprincipala .pemergencia {
+    text-align: center;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    color: white;
+}
+
+
+
+
+@media (max-width: 1024px){
+    header {
+
+        color: white;
+    }
+    header h1 {
+        align-items: center;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    
+
+}
+
+@media (max-width: 768px){
+    header .fondo h1 {
+        font-size: 2rem;
+    }
+    header .fondo h2 {
+        font-size: 1.5rem;
+        color: rgb(240, 235, 235);
+    }
+    main h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:425px) {
+    main h2 {
+        font-size: 1.875rem;
+    }
+    .botones {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boton1, .boton2 {
+        margin-bottom: 20px; /* Ajusta la distancia entre los botones */
+    }
+    .botonnuevo {
+        position: relative; /* Posiciona el botón de contacto relativo al flujo del documento */
+        margin-top: -20px; /* Ajusta la posición vertical para evitar superposiciones */
+        z-index: 1; /* Asegura que el botón esté por encima de otros elementos */
+        margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+    margin-left: auto; /* Centra horizontalmente el botón */
+    margin-right: auto; /* Centra horizontalmente el botón */
+    display: block; /* Asegura que ocupe todo el ancho disponible */
+    text-align: center; 
+    }
+
+    .informacion {
+        width: 90%; /* Cambia el ancho del div al 90% del ancho de la pantalla */
+        height: auto; /* Cambia la altura del div a auto para que se ajuste al contenido */
+    }
+    .informacion p {
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 375px) {
+    header .fondo h1 {
+        font-size: 1.25rem;
+        
+    }
+}
