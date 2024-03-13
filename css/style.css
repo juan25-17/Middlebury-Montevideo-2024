@@ -286,7 +286,11 @@ main h2 {
     color: white;
 }
 
-
+.estasemana {
+    color: white;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+}
 
 
 @media (max-width: 1024px){
