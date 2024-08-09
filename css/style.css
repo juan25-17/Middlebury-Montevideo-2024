@@ -292,6 +292,18 @@ main h2 {
     margin-left: 1.25rem;
 }
 
+.imgcontainer img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover; /* Asegura que la imagen se ajuste bien al tamaño */
+}
+
+.imgcontainer .img2 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 
 @media (max-width: 1024px){
     header {
