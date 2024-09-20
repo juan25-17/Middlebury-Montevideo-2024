@@ -292,6 +292,12 @@ main h2 {
     margin-left: 1.25rem;
 }
 
+.estasemananegro{
+    color: black;
+    margin-top: 3px;
+    margin-left: 1.25rem;
+}
+
 .imgcontainer img {
     width: 300px;
     height: 400px;
