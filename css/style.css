@@ -310,6 +310,11 @@ main h2 {
     object-fit: cover;
 }
 
+.imgnueva img {
+    height: 300px;
+    width: 250px;
+}
+
 
 @media (max-width: 1024px){
     header {
