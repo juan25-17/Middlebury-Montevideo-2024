@@ -39,7 +39,7 @@ header .bgimg .img img {
 
 
 main .bgi {
-    background-image: url(https://www.sportadvisorweb.com/wp-content/uploads/2019/06/uruguay_running2.jpg);
+    background-image: url(https://wallpapercave.com/wp/wp7851612.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -293,7 +293,7 @@ main h2 {
 }
 
 .estasemananegro{
-    color: black;
+    
     margin-top: 3px;
     margin-left: 1.25rem;
 }
@@ -311,8 +311,8 @@ main h2 {
 }
 
 .imgnueva img {
-    height: 300px;
-    width: 250px;
+    height: 250px;
+    width: 350px;
 }
 
 
