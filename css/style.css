@@ -315,6 +315,18 @@ main h2 {
     width: 350px;
 }
 
+.estasemana img {
+    width: 300px;
+    height: 400px;
+    background-image: url("ruta-de-la-imagen.jpg");
+    background-size: cover; /* Ajusta la imagen sin distorsión */
+    background-position: center;
+    max-width: 100%;  /* Hace que la imagen se ajuste al contenedor */
+    height: auto;     /* Mantiene la proporción */
+    display: block;
+}
+
+
 
 @media (max-width: 1024px){
     header {
