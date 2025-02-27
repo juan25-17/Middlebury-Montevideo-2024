@@ -316,7 +316,7 @@ main h2 {
 }
 
 .estasemana img {
-    width: 300px;
+    width: 250px;
     height: 400px;
     background-image: url("ruta-de-la-imagen.jpg");
     background-size: cover; /* Ajusta la imagen sin distorsión */
