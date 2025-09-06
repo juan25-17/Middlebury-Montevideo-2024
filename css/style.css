@@ -9,7 +9,30 @@
 
 
 .fondo {
-    background: linear-gradient(to bottom, rgba(12, 12, 235, 0.631), rgba(106, 126, 165, 0.564)); 
+    background: linear-gradient(to bottom, rgba(201, 120, 21, 0.618), rgba(106, 126, 165, 0.564)); 
+}
+
+.bgi {
+    background-image: url(https://wallpapercave.com/wp/wp7851612.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.bgi::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.721); /* Negro 40% opaco */
+    z-index: 0;
+}
+
+.bgi > * {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté por encima del overlay */
 }
 
 
@@ -70,7 +93,7 @@ main h2 {
 .botones .column  {
     width:200px;
     height:60px;
-    background: linear-gradient(to left top, rgba(41, 131, 183, 0.284) 50%, #dadce57c 50%);
+    background: linear-gradient(to left top, rgba(183, 129, 41, 0.284) 50%, #eeeff358 50%);
     border-style: none;
     color:#fff;
     font-size: 23px;
@@ -122,7 +145,7 @@ main h2 {
 .botonnuevo .columna {
     width:250px;
     height:60px;
-    background: linear-gradient(to left top, rgba(41, 131, 183, 0.284) 50%, #dadce57c 50%);
+    background: linear-gradient(to left top, rgba(183, 129, 41, 0.284) 50%, #eeeff358 50%);
     border-style: none;
     color:#fff;
     font-size: 23px;
@@ -195,7 +218,7 @@ main h2 {
 
 /*llegadas*/
 .bgi .llegadash2  {
-    background: linear-gradient(to left top, rgba(69, 41, 183, 0.284) 50%, #223caf3e 50%);
+    background: linear-gradient(to left top, rgba(183, 129, 41, 0.284) 50%, #eeeff358 50%);
 }
 
 .h2ll {
@@ -316,8 +339,8 @@ main h2 {
 }
 
 .estasemana img {
-    width: 250px;
-    height: 400px;
+    width: 150px;
+    height: 300px;
     background-image: url("ruta-de-la-imagen.jpg");
     background-size: cover; /* Ajusta la imagen sin distorsión */
     background-position: center;
@@ -325,6 +348,8 @@ main h2 {
     height: auto;     /* Mantiene la proporción */
     display: block;
 }
+
+
 
 
 
